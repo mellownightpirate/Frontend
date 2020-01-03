@@ -66,8 +66,9 @@ h1, h2, h3, h4, h5 {
 .logo-container {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
   margin-top: 50px;
 }
   .logo {
@@ -101,4 +102,55 @@ h2 {
   margin-top: 100px;
   width: 100%;
 }
+
+h3 {
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.dom {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
  
+.delba {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.amin {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.hasan {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.tharshan {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
