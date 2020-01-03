@@ -154,3 +154,41 @@ h3 {
   height: 15%;
   border-radius: 50%;
 }
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features p {
+  font-size: 25px;
+}
+
+.feature1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slack-img-1 {
+  width: 50%;
+  height: 50%;
+}
+
+h4 {
+  font-size: 50px;
+}
+
